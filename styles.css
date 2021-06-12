@@ -1,0 +1,122 @@
+body{
+  font-family: 'Ubuntu', sans-serif;
+
+}
+#title{
+  background-color: #ff4c68;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+
+}
+.heading{
+  color: white;
+  font-family: 'Suez One', serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.navbar{
+  padding-bottom: 4.5rem;
+}
+.navbar-brand{
+  margin-left: -8.5rem;
+  font-size: 2.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+}
+.Download-button{
+  margin: 3% 2% 0 0;
+}
+.title-img{
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right: 30%;
+
+}
+.features-box{
+  text-align: center;
+  padding: 4%;
+}
+#features{
+
+  padding: 7% 14%;
+  background-color: white;
+  position: relative;
+
+}
+p{
+  color: grey;
+}
+h3{
+ font-family: 'Montserrat', sans-serif;
+  font-size: 1.3rem;
+}
+.icon{
+  margin-bottom: 1rem;
+  color: #ff4c68
+}
+.icon:hover {
+  color: #ef1872;
+}
+#testimonials{
+  padding: 7% 14% 2rem ;
+  background-color:#ff4c68;
+  text-align: center;
+  font-family: 'Suez One', serif;
+
+}
+.testimonial-text{
+  color: white;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.img-testimonials{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+#press{
+  background-color:#ff4c68;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+.press-img{
+
+}
+#pricing{
+  padding: 7% 14%;
+}
+@media (max-width:900px) {
+  #title{
+    text-align: center;
+  }
+  .title-img{
+    position: static;
+    transform: rotate(0);
+  }
+  .navbar-brand{
+    margin-left: 0;
+    font-size: 2.5rem;
+}
+}
+.cta-text{
+  color: white;
+  font-family: 'Suez One', serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+#cta{
+  background-color:#ff4c68;
+  text-align: center;
+  padding: 7% 14%;
+}
+  #footer{
+    background-color: white;
+    text-align: center;
+    padding: 7% 14%;
+  }
